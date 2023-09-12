@@ -39,6 +39,7 @@ dependencies:
   firebase_auth: ^4.9.0
   firebase_core: ^2.15.1
   uuid: ^3.0.6 # for unique id
+  get: ^4.6.5 # for splash
 #  firebase_auth: ^4.3.0
 #  cloud_firestore: ^4.5.0
 
@@ -78,6 +79,7 @@ flutter:
     - images/banking.png
     - images/icon_edit.png
     - images/icon_time.png
+    - images/todo_logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
