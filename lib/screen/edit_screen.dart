@@ -48,10 +48,9 @@ class _Edit_screenState extends State<Edit_screen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 20,),
             title_widget(),
             subtitle_widget(),
-            SizedBox(height: 20,),
+            SizedBox(height: 10,),
             imageSet_widget(),
             SizedBox(height: 20,),
             button_widget(),
