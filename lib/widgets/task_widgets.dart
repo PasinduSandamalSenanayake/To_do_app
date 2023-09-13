@@ -83,6 +83,7 @@ class _task_WidgetState extends State<task_Widget> {
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
+                  color: isDone ? custom_green : Colors.black,
                 ),
                 ),
                   Checkbox(
@@ -94,6 +95,8 @@ class _task_WidgetState extends State<task_Widget> {
                         Firestore_Datasource().isDone(widget._note.id, isDone);
                         },
                       activeColor: custom_green,
+                      checkColor: Colors.white,
+
                   ),
                 ],
               ),
@@ -102,7 +105,7 @@ class _task_WidgetState extends State<task_Widget> {
               style: TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w400,
-                color: Colors.grey.shade400,
+                color: isDone ? Colors.black : Colors.grey.shade400,
               )
               ),
               //Spacer(),

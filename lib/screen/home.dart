@@ -18,7 +18,7 @@ class _homeState extends State<home> {
   bool floatingActionBtnShow = true;
   Widget build(BuildContext context) {
     return Scaffold(
-          backgroundColor: backgroundColor,
+          //backgroundColor: backgroundColor,
           floatingActionButton: Visibility(
             visible: floatingActionBtnShow,
             child: FloatingActionButton(

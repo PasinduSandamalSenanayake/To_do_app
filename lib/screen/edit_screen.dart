@@ -32,7 +32,7 @@ class _Edit_screenState extends State<Edit_screen> {
   }
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundColor,
+      //backgroundColor: backgroundColor,
       appBar: AppBar(
         backgroundColor: custom_green,
         title: Text('Edit Note'),

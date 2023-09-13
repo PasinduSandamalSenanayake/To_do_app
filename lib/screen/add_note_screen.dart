@@ -21,7 +21,7 @@ class _Add_screenState extends State<Add_screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundColor,
+      //backgroundColor: backgroundColor,
       appBar: AppBar(
         backgroundColor: custom_green,
         title: Text('Add Note'),

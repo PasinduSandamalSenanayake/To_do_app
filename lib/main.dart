@@ -5,6 +5,7 @@ import 'package:to_do_app/firebase_options.dart';
 import 'package:to_do_app/screen/add_note_screen.dart';
 import 'package:to_do_app/screen/home.dart';
 import 'package:to_do_app/screen/splash.dart';
+import 'package:to_do_app/theme/theme.dart';
 import 'package:to_do_app/widgets/task_widgets.dart';
 
 import 'auth/main_page.dart';
@@ -24,6 +25,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      theme: ToDoTheme.lightTheme,
+      darkTheme: ToDoTheme.darkTheme,
+      themeMode: ThemeMode.system, // ThemeMode.light, ThemeMode.dark
+
       debugShowCheckedModeBanner: false,
       home: SplashScreen(),  //mainPage() //home(),
     );
